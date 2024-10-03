@@ -1,0 +1,142 @@
+/************************************************************** General *****************************************************************/
+*{ 
+    margin: 0 0;
+    padding:0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+#container {
+    width: 80%;
+    margin: auto;
+    
+}
+    
+body{
+    background-color: #d8b90b;
+}
+main{
+    background-color: white;
+    padding:0.1em ;
+}        
+    
+/* ***************************************************************Header******************************************************************** */
+header{
+    background-color: rgb(24, 117, 204);
+    color: white;
+    text-align:center;
+    padding: 0;
+}
+h2{ font-style: italic;
+    font-weight: bold ;
+    padding:0.1em;
+}
+header>figure>img{
+    width: 100%;
+    vertical-align: top;
+}
+.simpsons{
+    padding: 0;
+}
+/* **************************************************************Main nav************************************************************************* */
+    
+article{
+    width: 100%;
+    text-align:justify;
+    font-size:large;
+    padding:1em
+}
+ul{
+    background-color:brgba(0, 60, 255, 0.548);
+    color:white;
+    display: flex;
+    justify-content: center;
+    
+    width: 100%;
+        
+        
+     
+     
+}
+h1{
+    color: rgba(238, 238, 11, 0.918);
+    margin-bottom: 30px;
+    
+} 
+
+nav{float: center;
+    background-color: rgb(24, 117, 204) ;
+    width:100%;
+    font-size:1sem;
+    height: fit-content;
+    padding:0.5em;
+;
+}
+
+nav{
+    color: white;
+
+}
+nav a{ 
+    color: white;
+}
+main{
+    display: block;
+}
+aside{
+    background-color: rgb(24, 117, 204) ;
+    font-size:large;
+    
+}
+aside{
+    color: white;
+    width:20%;
+    
+}
+img{width: 65%;
+    padding: 0.2em;
+    text-align: center;
+    margin: auto;
+}
+
+figure{
+    text-align: center;
+}
+
+h2{
+    color:white;
+    
+}
+h3{
+    color: white;text-align: center;
+    margin-bottom: 10px;
+
+}
+h4{font-style: italic;}
+p{
+    text-align: justify;
+    font-size:1em;
+}
+aside>p{
+    padding: 1em;
+}
+ul{
+    color:black;
+}
+
+nav>ul>li>a{
+    color:white;
+    
+    width: 100%;
+    
+}
+.List{
+    text-align: center;
+    padding: 0.5em;
+}
+/*******************************Footer********************************************* */
+footer{
+    background-color:  rgb(24, 117, 204);
+    text-align: justify;
+    text-align: center;
+    color: white;}
