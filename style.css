@@ -142,3 +142,23 @@ footer{
     text-align: center;
     color: white;
 }
+/* *******************************Smartphone******************************** */
+@media only screen
+and (max-device-width:750px){
+#container {width:100%;flex-direction: column;
+}
+main {width: 100%;flex-direction: column;
+}
+nav{width:100%;
+}
+article{
+    width:100%;flex-direction: column;
+}
+aside{
+    width:100%;
+
+    display: block;
+}
+.section{width:66%;flex-direction: column;}
+.affiche{width:80%}
+}
