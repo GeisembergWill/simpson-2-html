@@ -1,6 +1,6 @@
 /************************************************************** General *****************************************************************/
 *{ 
-    margin: 0 0;
+    margin: auto;
     padding:0;
     box-sizing: border-box;
     list-style: none;
@@ -145,20 +145,73 @@ footer{
 /* *******************************Smartphone******************************** */
 @media only screen
 and (max-device-width:750px){
-#container {width:100%;flex-direction: column;
+#container {width:100%;
 }
-main {width: 100%;flex-direction: column;
+main {width: 100%;
 }
-nav{width:100%;
+nav{width:100%;flex-direction: column;
 }
 article{
-    width:100%;flex-direction: column;
+    width:100%;padding-bottom: 0.1em;
+    
+}
+ul{
+    flex-direction: column;
 }
 aside{
-    width:100%;
+    width:80%;
 
     display: block;
 }
 .section{width:66%;flex-direction: column;}
-.affiche{width:80%}
+.affiche{width:100%;display: block;text-align: center;padding: 0.3em;}
+.content{display: block;}
+.body{width: 100%;}
+.globe{
+    width: 100%;padding:0;
+}
+p{padding:0.2em;}
+}
+/* ******************************************Tablette************************************* */
+ /* different techniques for iPad screening */
+ @media only screen and (min-device-width: 751px) and (max-device-width: 1024px) and (orientation:portrait) {
+    /* For portrait layouts only */
+  
+
+#container {
+    width:100%;
+}
+main {
+    width: 100%;
+    flex-direction: column;
+}
+nav{
+    width:100%;
+    flex-direction: column;
+}
+article{
+    width:100%;
+    padding-bottom: 0.1em;
+    flex-direction: column;
+    
+}
+ul{
+    flex-direction: column;
+}
+aside{
+    width:80%;
+
+    display: block;
+}
+.section{
+    width:66%;
+    flex-direction: column;}
+.affiche{width:100%;flex-direction: column;text-align: center;padding: 0.3em;}
+.content{display: block;}
+.body{width: 100%;flex-direction: column;}
+.globe{
+    width: 100%;padding:0 ;flex-direction: column;
+}
+p{padding:0.2em;}
+
 }
